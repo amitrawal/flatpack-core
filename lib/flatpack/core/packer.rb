@@ -48,9 +48,10 @@ module Flatpack
         # walk through our properties
         json = entity.properties
         json.keys.each do |name|
-          camelName = name.to_s().camelcase(:lower)
+          camel_name = name.to_s.camelize
+          camel_name = camel_name[0,1].downcase + camel_name[1..-1]
           value = json[name]
-          uuid_name = "#{camelName}Uuid"
+          uuid_name = "#{camel_name}Uuid"
           
           # The name we're working with will be replaced with a 
           # properly cased name or uuid reference
@@ -77,8 +78,8 @@ module Flatpack
           else
             # TODO how to handle local..At dates?  
             # Pass a timezone into the pack function as an option?
-            
-            json[camelName] = value
+
+            json[camel_name] = value
           end
         end
         

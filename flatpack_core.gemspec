@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = Flatpack::Core::VERSION
   gem.add_dependency('json', '~> 1.7')
   gem.add_dependency('uuidtools', '~> 2.1')
-  gem.add_dependency('activesupport', "~> 3.0")
+  gem.add_dependency('activesupport', "= 2.3.8")
   gem.add_development_dependency "rspec", "~> 2.6"
 end

@@ -93,7 +93,10 @@ module Flatpack
                     referent.send(collection_setter, collection)
                   end
                 end
-                collection.push(entity)
+                collection_uuids = collection.collect(&:uuid)
+                unless collection_uuids.include?(entity.uuid)
+                  collection.push(entity)
+                end
               end
             end
             
