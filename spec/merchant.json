@@ -1,0 +1,94 @@
+{
+    "value": "a7ae48c9-c0ad-4f2c-a0ca-484f2f5b351c",
+    "status_code": "200",
+    "data": {
+        "merchant": [
+            {
+                "merchantLocationsUuid": [
+                    "e988f216-aca6-490d-ad45-4840e05da352",
+                    "08ab924a-9742-4e9b-8444-ffc9b43f8566",
+                    "f77333aa-a66c-4944-9b95-53efc3657418",
+                    "5f72a832-02af-4dd9-8b30-7cef87f37833"
+                ],
+                "visitExpirationMinutes": 30,
+                "name": "The Melt (new)",
+                "updatedAt": "2012-09-17T20:33:02.000Z",
+                "pointsSignupBonus": 0,
+                "merchantCapabilitiesUuid": [
+
+                ],
+                "merchantState": "LIVE",
+                "headline": "Free Cheese is Awesome",
+                "createdAt": "2012-09-12T17:17:43.000Z",
+                "loyaltyType": "PUNCHCARD",
+                "uuid": "a7ae48c9-c0ad-4f2c-a0ca-484f2f5b351c"
+            }
+        ],
+        "merchantLocation": [
+            {
+                "longitude": -122.3994071,
+                "latitude": 37.795027,
+                "combinedAddress": "1 Embarcadero Center",
+                "merchantUuid": "a7ae48c9-c0ad-4f2c-a0ca-484f2f5b351c",
+                "country": "US",
+                "state": "CA",
+                "address": "1 Embarcadero Center",
+                "timezone": "America/Los_Angeles",
+                "createdAt": "2012-09-12T17:17:44.000Z",
+                "city": "San Francisco",
+                "neighborhoodName": "San Francisco",
+                "zip": "94111",
+                "smsId": "melt1",
+                "uuid": "e988f216-aca6-490d-ad45-4840e05da352"
+            },
+            {
+                "longitude": -122.4001066,
+                "latitude": 37.7872407,
+                "combinedAddress": "115 New Montgomery St",
+                "merchantUuid": "a7ae48c9-c0ad-4f2c-a0ca-484f2f5b351c",
+                "country": "US",
+                "state": "CA",
+                "address": "115 New Montgomery St",
+                "timezone": "America/Los_Angeles",
+                "createdAt": "2012-09-12T17:17:44.000Z",
+                "city": "San Francisco",
+                "neighborhoodName": "San Francisco",
+                "zip": "94105",
+                "smsId": "melt2",
+                "uuid": "08ab924a-9742-4e9b-8444-ffc9b43f8566"
+            },
+            {
+                "longitude": -122.3901921,
+                "latitude": 37.7897624,
+                "combinedAddress": "345 Spear St",
+                "merchantUuid": "a7ae48c9-c0ad-4f2c-a0ca-484f2f5b351c",
+                "country": "US",
+                "state": "CA",
+                "address": "345 Spear St",
+                "timezone": "America/Los_Angeles",
+                "createdAt": "2012-09-12T17:17:44.000Z",
+                "city": "San Francisco",
+                "neighborhoodName": "San Francisco",
+                "zip": "94105",
+                "smsId": "melt3",
+                "uuid": "f77333aa-a66c-4944-9b95-53efc3657418"
+            },
+            {
+                "longitude": -122.170764,
+                "latitude": 37.4442964,
+                "combinedAddress": "180 El Camino Real",
+                "merchantUuid": "a7ae48c9-c0ad-4f2c-a0ca-484f2f5b351c",
+                "country": "US",
+                "state": "California",
+                "address": "180 El Camino Real",
+                "timezone": "America/Los_Angeles",
+                "createdAt": "2012-09-12T17:17:44.000Z",
+                "city": "Palo Alto",
+                "neighborhoodName": "Palo Alto",
+                "zip": "94304",
+                "smsId": "melt4",
+                "uuid": "5f72a832-02af-4dd9-8b30-7cef87f37833"
+            }
+        ]
+    }
+}

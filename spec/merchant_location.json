@@ -1,0 +1,24 @@
+{
+    "value": "e988f216-aca6-490d-ad45-4840e05da352",
+    "status_code": "200",
+    "data": {
+        "merchantLocation": [
+            {
+                "longitude": -122.3994071,
+                "latitude": 37.795027,
+                "combinedAddress": "1 Embarcadero Center",
+                "merchantUuid": "a7ae48c9-c0ad-4f2c-a0ca-484f2f5b351c",
+                "country": "US",
+                "state": "CA",
+                "address": "1 Embarcadero Center",
+                "timezone": "America/Los_Angeles",
+                "createdAt": "2012-09-12T17:17:44.000Z",
+                "city": "San Francisco",
+                "neighborhoodName": "San Francisco",
+                "zip": "94111",
+                "smsId": "melt1",
+                "uuid": "e988f216-aca6-490d-ad45-4840e05da352"
+            }
+        ]
+    }
+}

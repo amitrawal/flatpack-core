@@ -41,6 +41,11 @@ module Flatpack
         name = self.class.name.gsub(/^.*::/,'')
         name[0,1].downcase + name[1..-1]
       end
+
+      # Equality should be based solely on uuid
+      def <=>(other)
+        @uuid <=> other.uuid
+      end
       
       def class_for_property(property)
         klass=self.class
